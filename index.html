@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,minimum-scale=1,initial-scale=1'>
+    <meta name='theme-color' content='#ffffff'/>
+    <title>Blogger Meta - Rizky Saskia Putra</title>
+    <link rel='canonical' href='https://rizkysaskiaputra.github.io/blogger-meta.html'/>
+    <meta name='description' content='Meta tag for Blogger'/>
+    <meta name='google-site-verification' content='xYKteXWFFpnt9Sdqy_0ZtiyhFtafYSNNQr5xfHgN59o'/>
+
+    <meta property='og:locale' content='en'/>
+    <meta property='og:type' content='website'/>
+    <meta property='og:title' content='Blogger Meta - Rizky Saskia Putra'/>
+    <meta property='og:description' content='Meta tag for Blogger'/>
+    <meta property='og:image' content='./img/rizkysaskiaputra-logo-512x512.png'/>
+    <meta property='og:image:alt' content='Rizky Saskia Putra'/>
+    <meta property='og:url' content='https://rizkysaskiaputra.github.io/blogger-meta.html'/>
+    <meta property='og:site_name' content='Rizky Saskia Putra'/>
+
+    <meta name='twitter:card' content='summary_large_image'/>
+    <meta name='twitter:title' content='Blogger Meta - Rizky Saskia Putra'/>
+    <meta name='twitter:description' content='Meta tag for Blogger'/>
+    <meta name='twitter:image' content='./img/rizkysaskiaputra-logo-512x512.png'/>
+    <meta name='twitter:url' content='https://rizkysaskiaputra.github.io/blogger-meta.html'/>
+    <meta name='twitter:site' content='@rizkyskiptra'/>
+    <meta name='twitter:creator' content='@rizkyskiptra'/>
+
+    <link rel='preconnect' href='https://www.gstatic.com' crossorigin='anonymous'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin='anonymous'>
+    <link rel='preconnect' href='https://fonts.googleapis.com' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Google+Sans:400,500%7CRoboto:300,300italic,400,400italic,500,500italic%7CRoboto+Mono:400,500%7CMaterial+Icons+Round&display=swap'>
+    <link rel='stylesheet' href='./dev.css'>
+    <link rel='shortcut icon' href='./favicon.ico'>
+    <link rel='apple-touch-icon' href='./img/apple-touch-icon.png'>
+    <link rel='manifest' href='./manifest.json'>
+</head>
+<body>
+<a class='app-skip' href='#main'>Skip to main content</a>
+<rsp-progress></rsp-progress>
+<div id='app-root'>
+    <div class='dev-root'>
+        <header class='dev-header'>
+            <a class='brand' href='/'><figure class='logo'><img alt='Rizky Saskia Putra' class='img' data-src='./img/rizkysaskiaputra-logo-192x192.png' src='./img/rizkysaskiaputra-logo-192x192.png' height='32' width='32'/></figure><span class='name'>Rizky Saskia Putra</span></a>
+        </header>
+        <main class='dev-main' id='main'>
+            <article aria-labelledby='article-headline' class='dev-article'>
+                <header class='dev-article-header'>
+                    <h1 id='article-headline'>Blogger Meta</h1>
+                </header>
+                <div class='dev-article-section'>
+                    <p>Tag meta for Blogger.</p>
+                    <pre class='language-html notranslate'><code>  &lt;head&gt;
+    &lt;title&gt;&lt;data:view.title.escaped/&gt;&lt;/title&gt;
+    &lt;link expr:href='data:view.url.canonical' rel='canonical'/&gt;
+    &lt;meta expr:content='data:view.description' name='description'/&gt;
+    &lt;meta expr:content='data:view.title' itemprop='name'/&gt;
+    &lt;b:if cond='data:view.featuredImage'&gt;
+      &lt;meta expr:content='data:view.featuredImage' itemprop='image'/&gt;
+    &lt;/b:if&gt;
+    &lt;meta expr:content='data:view.url.canonical' property='og:url'/&gt;
+    &lt;b:if cond='data:view.isSingleItem'&gt;
+      &lt;meta content='article' property='og:type'/&gt;
+    &lt;/b:if&gt;
+    &lt;meta expr:content='data:view.title' property='og:title'/&gt;
+    &lt;b:if cond='data:view.featuredImage'&gt;
+      &lt;meta expr:content='data:view.featuredImage' property='og:image'/&gt;
+      &lt;meta expr:content='data:view.title' property='og:image:alt'/&gt;
+    &lt;/b:if&gt;
+    &lt;meta expr:content='data:view.description' property='og:description'/&gt;
+    &lt;meta expr:content='data:blog.title' property='og:site_name'/&gt;
+    &lt;meta expr:content='data:blog.locale' property='og:locale'/&gt;
+    &lt;b:if cond='data:view.featuredImage'&gt;
+      &lt;meta content='summary_large_image' name='twitter:card'/&gt;
+      &lt;meta expr:content='data:view.title' name='twitter:title'/&gt;
+      &lt;meta expr:content='data:view.description' name='twitter:description'/&gt;
+      &lt;meta expr:content='data:view.featuredImage' name='twitter:image'/&gt;
+      &lt;meta expr:content='data:view.url.canonical' name='twitter:url'/&gt;
+      &lt;meta content='@rizyskiptra' name='twitter:site'/&gt;
+      &lt;b:else/&gt;
+      &lt;meta content='summary' name='twitter:card'/&gt;
+      &lt;meta expr:content='data:view.title' name='twitter:title'/&gt;
+      &lt;meta expr:content='data:view.description' name='twitter:description'/&gt;
+      &lt;meta expr:content='data:view.url.canonical' name='twitter:url'/&gt;
+      &lt;meta content='@rizyskiptra' name='twitter:site'/&gt;
+    &lt;/b:if&gt;
+    &lt;meta charset='utf-8'/&gt;
+    &lt;meta content='width=device-width, initial-scale=1' name='viewport'/&gt;
+    &lt;meta content='IE=Edge' http-equiv='X-UA-Compatible'/&gt;
+    &lt;meta content='#3ddc84' name='theme-color'/&gt;
+    &lt;b:tag cond='data:blog.googleProfileUrl' expr:href='data:blog.googleProfileUrl' name='link' rel='publisher'/&gt;
+    &lt;b:tag cond='data:view.featuredImage' expr:href='data:view.featuredImage' name='link' rel='image_src'/&gt;
+    &lt;link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon'/&gt;
+  &lt;/head&gt;</code></pre>
+                </div>
+                <footer class='dev-article-footer'>
+                    <p><strong>Published</strong>: <time class='date' datetime='2019-11-02T04:10:23+0000' title='Saturday, 02 November 2019'>Saturday, 02 November 2019</time></p>
+                    <p><strong>Updated</strong>: <time class='date' datetime='2019-11-02T04:10:23+0000' title='Saturday, 02 November 2019'>Saturday, 02 November 2019</time></p>
+                </footer>
+            </article>
+        </main>
+        <footer class='dev-footer'>
+            <p><a class='brand' href='https://rizkysaskiaputra.blogspot.com' title='Rizky Saskia Putra'><span class='name'>Rizky Saskia Putra</span></a></p>
+            <nav aria-label='Breadcrumb' class='artMt'>
+                <ul class='breadcrumb_list' itemscope itemtype='https://schema.org/BreadcrumbList'>
+                    <li class='breadcrumb_item' itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'>
+                        <mark aria-hidden='true' class='-_-' itemprop='position'>1</mark>
+                        <a class='breadcrumb_link' href='https://rizkysaskiaputra.github.io' itemprop='item'><span itemprop='name'>Home</span></a>
+                    </li>
+                    <li class='breadcrumb_item' itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'>
+                        <mark aria-hidden='true' class='-_-' itemprop='position'>2</mark>
+                        <a class='breadcrumb_link' href='https://rizkysaskiaputra.github.io/blogger-meta.html' itemprop='item'><span itemprop='name'>Blogger Meta</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</div>
+<rsp-sitemask></rsp-sitemask>
+<rsp-snackbar></rsp-snackbar>
+<rsp-tooltip></rsp-tooltip>
+<script defer src='./dev.js'></script>
+</body>
+</html>
